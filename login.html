@@ -17,7 +17,7 @@
         <div class="topbar">
             <div class="container">
                 <div id="logo">
-                    <a href="./web.html">
+                    <a href=".//">
                         <img id="hd" src="image/card1.jpg" alt="loi">
                     </a>
                 </div>
@@ -41,7 +41,7 @@
                             <i class="fa fa-home"></i>
                         </li>
                         <li class="last">
-                            <a id="trangchu" href="web.html">TRANG CHỦ</a>
+                            <a id="trangchu" href="/">TRANG CHỦ</a>
                         </li>
 
                     </ul>
@@ -53,11 +53,26 @@
     <div class="body">
         <div class="container mid_content">
         <div class="khac">
-        <h3 style="text-align: center;">Thông tin đăng nhập </h3>
+        <!-- <h3 style="text-align: center;">Thông tin đăng nhập </h3>
         <label>Tên tài khoản</label> <input type="text" required ="required" max="50">
         <label>Mật khẩu  </label> <input type="text" required ="required" max="10">
         
-        <button class="button">Đăng nhập </button>
+        <button class="button">Đăng nhập </button> -->
+       <h3 style="text-align: center;">Thông tin đăng nhập </h3>
+            <hr class="divider-w mb-10">
+            <form method="post" action="" id="loginform">
+              <div class="form-group">
+                <input class="form-control" id="username" name="username" type="text" placeholder="Tên tài khoản"/>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="password"  name="password" type="password" placeholder="Mật khẩu"/>
+              </div>
+              <div class="form-group">
+                <input class="btn btn-round btn-b" type="submit" value="Đăng nhập" style="margin-top: 5px;">
+              </div>
+              <!-- <div class="form-group"><a href="">Quên mật khẩu?</a></div> -->
+            </form>
+            
     </div>
           </div>
                  </div>
@@ -96,7 +111,7 @@
             </div>
         </div>
     </div>
-
+<script src="login.js"></script>
 </body>
 
 </html>
